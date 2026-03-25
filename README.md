@@ -16,7 +16,7 @@ Formulário de contato funcional (HTML)
 Estilo moderno com Google Fonts e Font Awesome
 
 
-##🛠️ Tecnologias Utilizadas
+## 🛠️ Tecnologias Utilizadas
 
 HTML5
 CSS3
