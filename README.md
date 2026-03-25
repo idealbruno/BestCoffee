@@ -30,8 +30,6 @@ https://idealbruno.github.io/BestCoffee/
 - **HTML5**
 - **CSS3**
 - **JavaScript (ES6)**
-- [**Swiper.js**](https://swiperjs.com/) – para o carrossel de depoimentos  
-- [**Font Awesome**](https://fontawesome.com/) – para ícones  
 - **Google Fonts** (Roboto e Playwrite DE SAS)
 
 ---
