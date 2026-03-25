@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playwrite+DE+SAS:wght@100..400&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css"
+    />
+    <link rel="shortcut icon" href="img/coffee-hero-section.png" type="image/x-icon">
+    <link rel="stylesheet" href="styles.css" />
+    <title>Coffee</title>
+  </head>
+  <body>
+    <header>
+      <nav class="navbar">
+        <a href="#" class="nav-logo">
+          <h2 class="logo-texto">☕ Coffee</h2>
+        </a>
+        <ul class="nav-menu">
+          <button id="menu-close" class="fas fa-times"></button>
+          <li class="nav-item">
+            <a href="#" class="nav-link">Home</a>
+          </li>
+          <li class="nav-item">
+            <a href="#sobre" class="nav-link">Sobre</a>
+          </li>
+          <li class="nav-item">
+            <a href="#menu" class="nav-link">Menu</a>
+          </li>
+          <li class="nav-item">
+            <a href="#avaliacao" class="nav-link">Avaliação</a>
+          </li>
+          <li class="nav-item">
+            <a href="#galeria" class="nav-link">Galeria</a>
+          </li>
+          <li class="nav-item">
+            <a href="#contato" class="nav-link">Contatos</a>
+          </li>
+        </ul>
+        <button id="menu-open" class="fas fa-bars"></button>
+      </nav>
+    </header>
+
+    <main>
+      <!--Hero Section-->
+      <section class="hero-section" id="home">
+        <div class="section-content">
+          <div class="hero-details">
+            <h2 class="tittle">Best Coffee</h2>
+            <h3 class="subtittle">
+              Faça o seu dia especial com o nosso café especial
+            </h3>
+            <p class="description">
+              Café com os amigos: deixe a melhor hora do seu dia, ainda melhor!
+            </p>
+            <div class="buttons">
+              <a href="#" class="button order-now">Saiba Mais</a>
+              <a href="#" class="button contact-us">Contate agora</a>
+            </div>
+          </div>
+          <div class="hero-img-wrapper">
+            <img src="img/coffee-hero-section.png" alt="" class="hero-img" />
+          </div>
+        </div>
+      </section>
+
+      <!--About Section-->
+      <section class="about-section" id="sobre">
+        <div class="section-content">
+          <div class="about-image-wrapper">
+            <img src="img/about-image.jpg" alt="about" class="about-image" />
+          </div>
+          <div class="about-details">
+            <h2 class="section-tittle">Sobre <span>Nós</span></h2>
+            <p class="text">
+              Na cafeteria nos orgulhamos de ser um destino preferido para
+              amantes de café e buscadores de conversas. Somos dedicados a
+              proporcionar uma experiência de café excepcional em um ambiente
+              acolhedor e convidativo, onde os convidados podem relaxar,
+              descontrair e aproveitar seu tempo com conforto.
+            </p>
+            <div class="social-link-list">
+              <a href="#" class="social-link"
+                ><i class="fa-brands fa-facebook"></i
+              ></a>
+              <a href="#" class="social-link"
+                ><i class="fa-brands fa-instagram"></i
+              ></a>
+              <a href="#" class="social-link"
+                ><i class="fa-brands fa-x-twitter"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--Menu Sectuion-->
+      <section class="menu-section" id="menu">
+        <h2 class="section-tittle">Nosso Cardápio</h2>
+        <div class="section-content">
+          <ul class="menu-list">
+            <li class="menu-item">
+              <img src="img/hot-beverages.png" alt="hotbeverages" />
+              <div class="menu-details">
+                <h3 class="name">Bebidas Quentes</h3>
+                <p class="text">
+                  Grande variedade de café fumegante que mantém você fresco e
+                  leve
+                </p>
+              </div>
+            </li>
+
+            <li class="menu-item">
+              <img src="img/cold-beverages.png" alt="cold beverages" />
+              <div class="menu-details">
+                <h3 class="name">Bebidas Geladas</h3>
+                <p class="text">
+                  Café gelado cremoso e espumoso para te refrescar...
+                </p>
+              </div>
+            </li>
+
+            <li class="menu-item">
+              <img src="img/refreshment.png" alt="refreshment" />
+              <div class="menu-details">
+                <h3 class="name">Refresco</h3>
+                <p class="text">
+                  fruta e bebida gelada e refrescante para dar sensação de
+                  frescor.
+                </p>
+              </div>
+            </li>
+
+            <li class="menu-item">
+              <img src="img/special-combo.png" alt="special combo" />
+              <div class="menu-details">
+                <h3 class="name">Combo especial</h3>
+                <p class="text">
+                  suas combinações favoritas de comida e bebida
+                </p>
+              </div>
+            </li>
+
+            <li class="menu-item">
+              <img src="img/desserts.png" alt="desserts" />
+              <div class="menu-details">
+                <h3 class="name">Sobremesa</h3>
+                <p class="text">
+                  sacie seu paladar e leve você a uma experiência culinária
+                </p>
+              </div>
+            </li>
+
+            <li class="menu-item">
+              <img src="img/burger-frenchfries.png" alt="burger frenchfries" />
+              <div class="menu-details">
+                <h3 class="name">Hambúrguer e batatas fritas</h3>
+                <p class="text">
+                  Mordidas rápidas satisfazem sua fome de tamanho pequeno
+                </p>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <!--Testimonial Section-->
+      <section class="testimonial-section" id="avaliacao">
+        <h2 class="section-tittle">Avaliação</h2>
+        <div class="section-content">
+          <div class="slider-container swiper">
+            <div class="slider-wrapper">
+              <ul class="testimonial-list swiper-wrapper">
+                <li class="testimonial swiper-slide">
+                  <img src="img/user-1.jpg" alt="User 1" class="user-image" />
+                  <h3 class="name">Sarah</h3>
+                  <i class="feedback"
+                    >"Adorei o café. Perfeitamente equilibrado e encorpado. Vou
+                    pedir novamente!"</i
+                  >
+                </li>
+                <li class="testimonial swiper-slide">
+                  <img src="img/user-2.jpg" alt="User 1" class="user-image" />
+                  <h3 class="name">Jaime</h3>
+                  <i class="feedback"
+                    >"Ótima mistura de espresso! Sabor suave e intenso. Envio
+                    rápido também!"</i
+                  >
+                </li>
+                <li class="testimonial swiper-slide">
+                  <img src="img/user-3.jpg" alt="User 1" class="user-image" />
+                  <h3 class="name">Michael</h3>
+                  <i class="feedback"
+                    >"Sabor fantástico. Fresco e aromático. Envio rápido!"</i
+                  >
+                </li>
+                <li class="testimonial swiper-slide">
+                  <img src="img/user-4.jpg" alt="User 1" class="user-image" />
+                  <h3 class="name">Emily</h3>
+                  <i class="feedback"
+                    >"Qualidade excelente! Grãos frescos e entrega rápida.
+                    Recomendo muito."</i
+                  >
+                </li>
+                <li class="testimonial swiper-slide">
+                  <img src="img/user-5.jpg" alt="User 1" class="user-image" />
+                  <h3 class="name">Antonio</h3>
+                  <i class="feedback"
+                    >"O melhor descafeinado que já experimentei, suave e
+                    saboroso. Chegou rapidamente."</i
+                  >
+                </li>
+              </ul>
+
+              <div class="swiper-pagination"></div>
+              <div class="swiper-slide-button swiper-button-prev"></div>
+              <div class="swiper-slide-button swiper-button-next"></div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--Gallery Section-->
+      <section class="gallery-section" id="galeria">
+        <h2 class="section-tittle">Galeria</h2>
+        <div class="section-content">
+          <ul class="gallery-list">
+            <li class="gallery-item">
+              <img
+                src="img/gallery-1.jpg"
+                alt="gallery"
+                class="gallery-image"
+              />
+            </li>
+            <li class="gallery-item">
+              <img
+                src="img/gallery-2.jpg"
+                alt="gallery"
+                class="gallery-image"
+              />
+            </li>
+            <li class="gallery-item">
+              <img
+                src="img/gallery-3.jpg"
+                alt="gallery"
+                class="gallery-image"
+              />
+            </li>
+            <li class="gallery-item">
+              <img
+                src="img/gallery-4.jpg"
+                alt="gallery"
+                class="gallery-image"
+              />
+            </li>
+            <li class="gallery-item">
+              <img
+                src="img/gallery-5.jpg"
+                alt="gallery"
+                class="gallery-image"
+              />
+            </li>
+            <li class="gallery-item">
+              <img
+                src="img/gallery-6.jpg"
+                alt="gallery"
+                class="gallery-image"
+              />
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <!--Contact Section-->
+      <section class="contact-section" id="contato">
+        <h2 class="section-tittle">Contate-nos</h2>
+        <div class="section-content">
+          <ul class="contact-info-list">
+            <li class="contact-info">
+              <i class="fa-solid fa-location-crosshairs"></i>
+              <p>Rua danilo correa - Petropolis - AM</p>
+            </li>
+            <li class="contact-info">
+              <i class="fa-regular fa-envelope"></i>
+              <p>info@bestcoffeewebsite.com.br</p>
+            </li>
+            <li class="contact-info">
+              <i class="fa-solid fa-phone"></i>
+              <p>(92) 9912-7281</p>
+            </li>
+            <li class="contact-info">
+              <i class="fa-regular fa-clock"></i>
+              <p>Monday - Friday 9:00 AM - 5:00 PM</p>
+            </li>
+            <li class="contact-info">
+              <i class="fa-regular fa-clock"></i>
+              <p>Sabado Fechado</p>
+            </li>
+            <li class="contact-info">
+              <i class="fa-solid fa-globe"></i>
+              <p>www.bestcoffeweb.com</p>
+            </li>
+          </ul>
+          <form action="#" class="contact-form">
+            <input
+              type="text"
+              placeholder="Digite seu nome."
+              class="form-input"
+              required
+            />
+            <input
+              type="text"
+              placeholder="Digite seu e-mail"
+              class="form-input"
+              required
+            />
+            <textarea
+              placeholder="Digite sua mensagem"
+              class="form-input"
+              required
+            ></textarea>
+            <button class="submit-button">Submit</button>
+          </form>
+        </div>
+      </section>
+
+      <footer class="footer-section">
+        <div class="section-content">
+          <p class="copyright-text">2025 best coffee</p>
+
+          <div class="social-link-list">
+            <a href="#" class="social-link"
+              ><i class="fa-brands fa-facebook"></i
+            ></a>
+            <a href="#" class="social-link"
+              ><i class="fa-brands fa-instagram"></i
+            ></a>
+            <a href="#" class="social-link"
+              ><i class="fa-brands fa-x-twitter"></i
+            ></a>
+          </div>
+          <p class="policy-text">
+            <a href="#" class="policy-link">Privacy Policy</a>
+            <span class="separator">.</span>
+            <a href="#" class="policy-link">Redund polocy</a>
+          </p>
+        </div>
+      </footer>
+    </main>
+  </body>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
+
+  <script src="java.js"></script>
+</html>
